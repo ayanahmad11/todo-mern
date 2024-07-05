@@ -1,0 +1,15 @@
+.user-png{
+    width: 30px;
+    height: 30px;
+}
+.navbar-brand{
+    color:rgb(255,0,0.836);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.btn-nav{
+   background-color:rgb(255,0,0,0.836);
+   border-radius:5px;
+   color:whitesmoke !important;
+}
