@@ -11,10 +11,7 @@ app.use(cors());
 app.use("/api/v1",auth);
 app.use("/api/v2",list);
 
-app.use(express.static('build'));
-app.use((req, res, next) => {
-    res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
+
 app.get("/", (req, res) => {
     app.use(express.static(path.resolve(__dirname, "frontend", "build")));
     res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"));
